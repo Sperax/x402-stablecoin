@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use x402-stablecoin, please cite it as below."
+type: software
+title: "x402-stablecoin"
+abstract: "x402 payment protocol enabling AI agents to autonomously pay for APIs on Arbitrum. Features Sperax USDs stablecoin with auto-yield, payment channels for streaming micropayments, on-chain subscriptions, and a tool registry marketplace. Includes TypeScript SDK, Express middleware, and upgradeable smart contracts."
+authors:
+  - alias: nirholas
+    name: nirholas
+repository-code: "https://github.com/nirholas/x402-stablecoin"
+url: "https://github.com/nirholas/x402-stablecoin"
+license: MIT
+version: "1.0.0"
+date-released: "2026-02-11"
+keywords:
+  - open-source
+  - nirholas

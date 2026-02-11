@@ -1,0 +1,18 @@
+# x402-stablecoin
+
+> x402 payment protocol enabling AI agents to autonomously pay for APIs on Arbitrum. Features Sperax USDs stablecoin with auto-yield, payment channels for streaming micropayments, on-chain subscriptions, and a tool registry marketplace. Includes TypeScript SDK, Express middleware, and upgradeable smart contracts.
+
+## Overview
+
+x402-stablecoin is an open-source project by nirholas. x402 payment protocol enabling AI agents to autonomously pay for APIs on Arbitrum. Features Sperax USDs stablecoin with auto-yield, payment channels for streaming micropayments, on-chain subscriptions, and a tool registry marketplace. Includes TypeScript SDK, Express middleware, and upgradeable smart contracts.
+
+## Repository
+
+- URL: https://github.com/nirholas/x402-stablecoin
+- Language: TypeScript
+- License: MIT
+- Author: nirholas
+
+## Contributing
+
+Contributions are welcome. See CONTRIBUTING.md for guidelines.
