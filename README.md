@@ -418,3 +418,77 @@ artificial general intelligence agent, AGI agent, narrow AI agent, weak AI agent
 *Total Keywords: 6500+*
 *Last Updated: January 29, 2026*
 </details>
+
+
+---
+
+## 🌐 Live HTTP Deployment
+
+**x402 Stablecoin** is deployed and accessible over HTTP via [MCP Streamable HTTP](https://modelcontextprotocol.io/specification/2025-03-26/basic/transports#streamable-http) transport — no local installation required.
+
+**Endpoint:**
+```
+https://modelcontextprotocol.name/mcp/x402-stablecoin
+```
+
+### Connect from any MCP Client
+
+Add to your MCP client configuration (Claude Desktop, Cursor, SperaxOS, etc.):
+
+```json
+{
+  "mcpServers": {
+    "x402-stablecoin": {
+      "type": "http",
+      "url": "https://modelcontextprotocol.name/mcp/x402-stablecoin"
+    }
+  }
+}
+```
+
+### Available Tools (4)
+
+| Tool | Description |
+|------|-------------|
+| `get_usds_info` | USDs stablecoin price |
+| `get_arbitrum_gas` | Arbitrum gas estimate |
+| `get_payment_protocol_info` | x402 protocol info |
+| `estimate_payment_cost` | Estimate payment cost |
+
+### Example Requests
+
+**USDs stablecoin price:**
+```bash
+curl -X POST https://modelcontextprotocol.name/mcp/x402-stablecoin \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"get_usds_info","arguments":{}}}'
+```
+
+**Arbitrum gas estimate:**
+```bash
+curl -X POST https://modelcontextprotocol.name/mcp/x402-stablecoin \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"get_arbitrum_gas","arguments":{}}}'
+```
+
+**x402 protocol info:**
+```bash
+curl -X POST https://modelcontextprotocol.name/mcp/x402-stablecoin \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"get_payment_protocol_info","arguments":{}}}'
+```
+
+### List All Tools
+
+```bash
+curl -X POST https://modelcontextprotocol.name/mcp/x402-stablecoin \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","id":1,"method":"tools/list"}'
+```
+
+### Also Available On
+
+- **[SperaxOS](https://speraxos.vercel.app)** — Browse and install from the [MCP marketplace](https://speraxos.vercel.app/community/mcp)
+- **All 27 MCP servers** — See the full catalog at [modelcontextprotocol.name](https://modelcontextprotocol.name)
+
+> Powered by [modelcontextprotocol.name](https://modelcontextprotocol.name) — the open MCP HTTP gateway
