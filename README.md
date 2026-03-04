@@ -1,6 +1,6 @@
 # X402 Payment Protocol with Sperax USDs
  
-[![CI](https://github.com/nirholas/x402/actions/workflows/ci.yml/badge.svg)](https://github.com/nirholas/x402/actions/workflows/ci.yml)
+[![CI](https://github.com/sperax/x402/actions/workflows/ci.yml/badge.svg)](https://github.com/sperax/x402/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Arbitrum](https://img.shields.io/badge/Network-Arbitrum-blue)](https://arbitrum.io/)
 
@@ -41,7 +41,7 @@ X402 is a complete payment protocol implementation for AI agents, combining:
 
 ```bash
 # Clone the repo
-git clone https://github.com/nirholas/x402.git
+git clone https://github.com/sperax/x402.git
 cd x402
 
 # Install dependencies
