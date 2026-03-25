@@ -7,7 +7,7 @@ Build AI agents that can autonomously make X402 payments to access paid APIs and
 ## Table of Contents
 
 1. [Prerequisites](#prerequisites)
-2. [Setting Up MCP Server](#setting-up-mcp-server)
+2. [Setting Up MCP Server](#setting-up-mcp-server) 
 3. [Configuring Claude to Use X402 Tools](#configuring-claude-to-use-x402-tools)
 4. [Configuring GPT to Use X402 Tools](#configuring-gpt-to-use-x402-tools)
 5. [Handling 402 Responses Programmatically](#handling-402-responses-programmatically)
