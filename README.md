@@ -1,4 +1,4 @@
-# X402 Payment Protocol with Sperax USDs
+# X402 Payment Protocol with Sperax USDs 
  
 [![CI](https://github.com/sperax/x402/actions/workflows/ci.yml/badge.svg)](https://github.com/sperax/x402/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
